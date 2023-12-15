@@ -1,0 +1,126 @@
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-v,
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-middle {
+  align-items: center;
+}
+
+.fcc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fcb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.float-right {
+  float: right;
+}
+
+.pull-left,
+.float-left {
+  float: left;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.disable-scroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* 禁止折行/允许折行 */
+.nowrap {
+  word-break: keep-all;
+  white-space: nowrap;
+}
+
+.wrap {
+  word-break: break-all;
+  white-space: normal;
+}
+
+.ellipsis,
+.text-ellipsis-single {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.two-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.multi-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
