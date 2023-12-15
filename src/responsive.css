@@ -9,13 +9,13 @@ html.size750 {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   html.size750 {
     font-size: 78px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .only-pc {
     display: none;
   }
@@ -25,7 +25,7 @@ html.size750 {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   .only-pc {
     display: block;
   }

@@ -31,5 +31,30 @@
       <div style="font-size: 0.32rem">font 16px</div>
       <div style="font-size: 0.36rem">font 18px</div>
     </div>
+    <div class="toast" id="myToast">This is a toast message!</div>
   </body>
+
+  <script>
+    // 获取 Toast 元素
+    var toast = document.getElementById('myToast')
+
+    // 显示 Toast
+    function showToast() {
+      toast.classList.add('show')
+      // 可选：3 秒后隐藏 Toast
+      setTimeout(function () {
+        hideToast()
+      }, 3000)
+    }
+
+    // 隐藏 Toast
+    function hideToast() {
+      toast.classList.remove('show')
+    }
+
+    // 示例：在页面加载完成后显示 Toast
+    document.addEventListener('DOMContentLoaded', function () {
+      showToast()
+    })
+  </script>
 </html>
