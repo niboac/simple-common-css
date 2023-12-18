@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "http-server -p 8086",
+    "v": "npm version patch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "pub": "npm config set registry https://registry.npmjs.org && npm publish && npm config set registry https://registry.npmmirror.com"
   },

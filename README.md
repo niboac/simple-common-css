@@ -4,7 +4,10 @@
 ## 安装
 ```
 npm install sinple-common-css
-pp add sinple-common-css
+```
+或者
+```
+pnpm add sinple-common-css 
 ```
 
 ## 使用
