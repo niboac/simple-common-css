@@ -2,13 +2,17 @@
 一个简单易用的 css 框架
 
 ## 安装
-
 ```
 npm install sinple-common-css
 pp add sinple-common-css
 ```
 
 ## 使用
+```
+<style>
+  @import "simple-common-css/layout.css"
+</style>
+```
 ```
 <div class="flex-middle">
   <div
