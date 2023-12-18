@@ -1,12 +1,12 @@
 {
   "name": "simple-common-css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "http-server -p 8086",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "npm config set registry https://registry.npmjs.org && npm publish && npm config set registry https://registry.npmmirror.com"
+    "pub": "npm config set registry https://registry.npmjs.org && npm publish && npm config set registry https://registry.npmmirror.com"
   },
   "keywords": [],
   "author": "",
