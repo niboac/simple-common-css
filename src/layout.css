@@ -59,6 +59,20 @@
   align-items: center;
 }
 
+.flex-right-full {
+  display: flex;
+}
+.flex-right-full > *:nth-child(2) {
+  flex: 100;
+}
+
+.flex-left-full {
+  display: flex;
+}
+.flex-left-full > *:nth-child(1) {
+  flex: 100;
+}
+
 .fcc {
   display: flex;
   align-items: center;
