@@ -59,6 +59,10 @@
   align-items: center;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .flex-right-full {
   display: flex;
 }
@@ -93,6 +97,10 @@
 .pull-right,
 .float-right {
   float: right;
+}
+
+.v-middle {
+  vertical-align: middle;
 }
 
 .bold {
@@ -207,4 +215,23 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+.bg-contain {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-circle {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1000px;
 }

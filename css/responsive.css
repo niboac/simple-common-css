@@ -1,0 +1,36 @@
+html.size750 {
+  font-size: 13.333333vw;
+  color: #644a4c;
+}
+
+@media screen and (max-width: 300px) {
+  html.size750 {
+    font-size: 39px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html.size750 {
+    font-size: 78px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .only-pc {
+    display: none;
+  }
+
+  .only-wap {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .only-pc {
+    display: block;
+  }
+
+  .only-wap {
+    display: none;
+  }
+}
