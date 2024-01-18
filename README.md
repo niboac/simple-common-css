@@ -1,5 +1,5 @@
 # simple-common-css
-一个简单易用的 css 框架
+一个简单易用的 css 基础库
 
 ## 安装
 ```
